@@ -1,0 +1,118 @@
+.homepage-background-image {
+    width: 100%;
+    /* height: 75%; */
+}
+
+.back {
+    background-image: url("../Images/ZomatoHomepage.avif");
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover-food {
+    font-weight: 400;
+    color: white;
+    font-size: 36px;
+    font-family: sans-serif;
+    margin: 30px 0px 0px;
+}
+
+.search-container {
+    width: 100%;
+    margin-top: 20px !important;
+    position: relative;
+}
+
+.search-div {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: white;
+    width: 700px;
+    padding: 20px 0px;
+    z-index: 10;
+    margin-top: 10px;
+    position: absolute;
+    top: 100%;
+    max-height: 316px;
+    border: 1px solid rgb(207, 207, 207);
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    transition: opacity 0.25s ease 0s, top 0.25s ease 0s;
+    overflow: auto;
+}
+
+.search-item {
+    padding: 10px;
+}
+
+.search-item:hover {
+    background: rgb(248, 248, 248);
+}
+
+.search-box {
+    height: 50px;
+    width: 700px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.search-button {
+    height: 50px;
+    width: 100px;
+}
+
+.popular-heading {
+    margin: 0px;
+    color: rgb(54, 54, 54);
+    font-size: 36px;
+    font-family: sans-serif;
+    line-height: 1.2;
+    font-weight: 200;
+}
+
+.current-city {
+    font-weight: 600;
+}
+
+.city-navigator {
+    padding: 10px 1.5rem;
+    border-radius: 0.8rem;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    min-height: 75px;
+    max-height: 75px;
+    align-items: center;
+    cursor: pointer;
+    width: 32%;
+    margin-left: 13px;
+}
+
+.city-navigator:hover {
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 4px 8px;
+}
+
+.weight-400-20 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.opacity-80 {
+    opacity: 0.8;
+}
+
+/* .image-div{
+    overflow-x: hidden;
+    overflow: visible;
+} */
+
+.search-div-active {
+    z-index: 1000;
+}
+
+.search-div-inactive {
+    display: none;
+}

@@ -1,0 +1,27 @@
+export const BASE_URL = "http://localhost:8000/"
+
+export const apiList = {
+    register: "register",
+    login: "login",
+    addfood: "addfood",
+    updatefood: "updatefood",
+    getfood: "getfood",
+    getallfood: "getallfood",
+    getrestaurant: "getrestaurant",
+    deletefood:"deletefood",
+    restaurantregister: "restaurantregister",
+    restaurantlogin: "restaurantlogin",
+    placeorder: "placeorder",
+    placecartorder: "placecartorder",
+    addtocart:"addtocart",
+    fetchcartdata:"fetchcartdata",
+    updatecart:"updatecart",
+    deletecartitem: "deletecartitem",
+    showorder: "showorder",
+    fetchOrders: "fetchOrders",
+    cancelorder: "cancelorder",
+    getcity: "getcity",
+    fetchuserinfo:"fetchuserinfo",
+    fetchquestions : "fetchquestions"   ,
+    cretepreference: "cretepreference",
+}

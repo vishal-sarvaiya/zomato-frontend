@@ -1,0 +1,53 @@
+.width-30{
+    width: 32%;
+}
+
+.description{
+    font-size: 0.95rem;
+    color: #828282;
+}
+.safety-description{
+    font-size: 0.8rem;
+    color: #828282;
+}
+.fontrem-8{
+    font-size: 0.8rem;
+}
+hr{
+    opacity: 0.18;
+}
+.rating{
+    background-color: #24963F;
+    border-radius: 7px;
+    width: 40px;
+    color: white;
+    font-size: 0.9rem;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.foodBox:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px groove rgb(235, 232, 232);
+}
+
+.font-600{
+    align-items: center;
+    font-size: 600%;
+    color: #898989;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nodata-div{
+    min-height: 50vh;
+}
+.font-400{
+    align-items: center;
+    font-size: 400%;
+    color: #898989;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,97 @@
+.error {
+    color: red;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    background: #f857a6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5858, #f857a6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5858, #f857a6);
+}
+
+.registration-box {
+    margin: 5% 0;
+    background: white;
+    width: 80%;
+    padding: 40px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+
+.user-box {
+    position: relative;
+}
+
+.registration-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    /* margin-bottom: 30px; */
+    border: none;
+    border-bottom: 1px solid rgb(192 192 192);
+    outline: none;
+    /* background: transparent; */
+}
+
+.registration-box .user-box input:focus {
+    border-bottom: 1px solid black;
+}
+
+.font-14px {
+    font-size: 14px;
+}
+
+.registration-label {
+    position: absolute;
+    top: 0px !important;
+    left: 0 !important;
+    padding: 10px 0;
+    font-size: 16px !important;
+    color: rgb(127 127 127);
+    pointer-events: none;
+    transition: .5s;
+}
+
+.radius-25 {
+    border-radius: 25px;
+}
+
+input:focus+.registration-label,
+input:valid+.registration-label {
+    top: -20px !important;
+    left: 0 !important;
+    color: black;
+    font-size: 12px !important;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer !important;
+    border-radius: 25px;
+    position: relative !important;
+    color: black;
+    font-size: 10pt;
+    font-weight: 700;
+}
+
+/* input[type=file]{
+    display: none;
+} */
+
+/* html {
+    height: 100%;
+  } */
+/* body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+} */

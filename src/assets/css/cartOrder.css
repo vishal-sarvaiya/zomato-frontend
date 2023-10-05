@@ -1,0 +1,68 @@
+.cart-food-title{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cart-detail-font {
+    font-size: 14px;
+    color: #898989;
+}
+.price-heading{
+    font-size: 20px;
+}
+.qty-box{
+    /* width: auto; */
+    padding: 3px 6px;
+    width: calc(100% - 60px);
+    height: 100%;
+    width: 46px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
+    margin: 0 5px;
+    text-align: center;
+}
+.remove-btn {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.qty-btn{
+    width: 28px;
+    height: 28px;
+    background: linear-gradient(#fff,#f9f9f9);
+    display: inline-block;
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50%;
+    padding-top: 1px;
+    line-height: 1;
+}
+.delievery-detail{
+    font-size: 14px;
+}
+.place-order-btn{
+    background-color: #EF4F5F;
+    /* width: 100%; */
+    margin-bottom: 2%;
+    padding: 16px 30px;
+    min-width: 250px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    font-weight: 500;
+    position: relative;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border: none;
+    color: #fff;
+    /* float: right; */
+}
+.subtotal-heading {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: monospace;
+}
+.empty-cart{
+    align-items: center;
+    font-size: 400%;
+    color: #898989;
+    min-height: 85vh;
+}

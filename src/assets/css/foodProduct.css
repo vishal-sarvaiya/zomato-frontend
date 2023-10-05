@@ -1,0 +1,50 @@
+.title{
+    font-size: 36px;
+}
+.food-data{
+    font-size: 20px;
+    color: #5c5858;
+}
+.order-btn,.add-cart-btn{
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid;
+}
+.order-btn{
+    background-color: #EF4F5F;
+}
+.heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+.main-image{
+    max-width: 415px;
+    max-height: 415px;
+}
+.link-div{
+    text-decoration: none;
+    color: inherit;
+}
+.slick-next:before,.slick-prev:before {
+    font-family: 'slick';
+    font-size: 25px !important;
+    line-height: 1;
+    opacity: 0.80 !important;
+    color: black !important;
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+}
+
+/* .slick-prev:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */

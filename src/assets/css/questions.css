@@ -1,0 +1,23 @@
+.appearance-none{
+    appearance: none;
+}
+
+.min-70-vh{
+    min-height: 70vh;
+}
+    
+.width-10{
+    width: 10%;
+}
+.option-div{
+    /* border: 1px solid #696969; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.selected-option{
+    background-color: lightblue;
+}

@@ -1,0 +1,32 @@
+.selected-status{
+    color: #EF4F5F;
+    border-bottom: 3px solid red;
+    cursor: pointer;
+}
+.individual-order{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.order-header{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 10px 0px;
+}
+/* .border-animated{
+    position: absolute;
+    height: 3px; 
+    background-color: #EF4F5F; 
+    width: 100px;
+    transition: width 0.3s ease, transform 0.3s ease; 
+
+    
+    position: relative;
+    height: 1px;
+    background-color: #EF4F5F;
+    width: 0;
+    transition: width 0.3s ease;
+  }
+
+  .selected-status + .border-animated { 
+    width: 100px;
+    transition: width 0.3s ease;
+    transform-origin: right; 
+  } */

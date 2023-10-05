@@ -1,0 +1,33 @@
+// import React, { Children, useContext, useState } from "react"
+// const AuthContext = React.createContext()
+
+// export function useAuth(){
+//     return useContext(AuthContext)
+// }
+
+// export function AuthProvider(props){
+//     const [authUser, setAuthUser] = useState(null)
+//     const [isLoggedIn, setIsLoggedIn] = useState(false)
+
+//     const value = {
+//         authUser,
+//         setAuthUser,
+//         isLoggedIn,
+//         setIsLoggedIn
+//     }
+//     return(
+//         <AuthContext.Provider value={value}>
+//             {props.children}
+//         </AuthContext.Provider>
+//     )
+// }
+
+import React from 'react'
+
+const AuthContext = () => {
+  return (
+    <div>auth.context</div>
+  )
+}
+
+export default AuthContext

@@ -1,0 +1,43 @@
+.width-40{
+    width: 40%;
+}
+.width-45{
+    width: 45%;
+}
+.width-35{
+    width: 35%;
+}
+.width-90{
+    width: 90%;
+}
+.width-95{
+    width: 95%;
+}
+.width-80{
+    width: 80%;
+}
+/* .location-pin{
+    color: #447be5;
+} */
+.address{
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.btn-cancel {
+    width: 300px;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    border: none;
+    height: 45px;
+}
+
+.btn-cancel:hover{
+    font-size: 23px;
+    background-color: #d30000;
+    width: 295px;
+    height: 42px;
+}

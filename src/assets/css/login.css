@@ -1,0 +1,92 @@
+.maindiv {
+    display: flex;
+    justify-content: center;
+   
+
+    background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to top, #e7f9ff, #ffffff, #a4e7ff); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to top, #ffffff, #c5f0ff, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: #f857a6;
+    background: -webkit-linear-gradient(to right, #ff5858, #f857a6);
+    background: linear-gradient(to right, #ff5858, #f857a6); */
+}
+
+.login-box {
+    margin: 5% 0;
+    background: white;
+    width: 470px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+
+.user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    /* margin-bottom: 30px; */
+    border: none;
+    border-bottom: 1px solid rgb(192 192 192);
+    outline: none;
+    /* background: transparent; */
+}
+
+.login-box .user-box input:focus {
+    border-bottom: 1px solid black;
+}
+
+.font-14px {
+    font-size: 14px;
+}
+
+/* .login-box .user-box label{ */
+.login-box .user-box .login-label {
+    position: absolute;
+    top: 0px !important;
+    left: 0 !important;
+    padding: 10px 0;
+    font-size: 16px !important;
+    color: rgb(127 127 127);
+    pointer-events: none;
+    transition: .5s;
+}
+
+.radius-25 {
+    border-radius: 25px;
+}
+
+
+.login-box .user-box input:focus ~ .login-label,
+.login-box .user-box input:valid ~ .login-label {
+    top: -20px !important;
+    left: 0 !important;
+    color: black;
+    font-size: 12px !important;
+}
+
+
+
+
+/* html {
+    height: 100%;
+  } */
+/* body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+} */
+
+/* background: #005AA7;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to top, #FFFDE4, #005AA7);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to top, #FFFDE4, #a6d5ff); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
