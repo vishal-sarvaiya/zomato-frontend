@@ -1,4 +1,5 @@
-export const BASE_URL = "http://localhost:8000/"
+// export const BASE_URL = "http://localhost:8000/"
+export const BASE_URL = "https://zomato-backend-six.vercel.app"
 
 export const apiList = {
     register: "register",
