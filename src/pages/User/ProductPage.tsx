@@ -328,6 +328,7 @@ const ProductPage = () => {
                     selectedTab === "Order Online" &&
                     foodData && foodData.length > 0 &&
                     foodData.map((food: foodProductData, index: number) => {
+                        console.log("food in productpage:",food);
                         return (
 
                                 <Link to={`/foodproduct?restaurant=${food.restaurant_id}&fooditem=${food._id}`} className='link-div'>
