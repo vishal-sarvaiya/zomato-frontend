@@ -328,15 +328,14 @@ const ProductPage = () => {
                     selectedTab === "Order Online" &&
                     foodData && foodData.length > 0 &&
                     foodData.map((food: foodProductData, index: number) => {
-                        console.log("food in productpage:",food);
+                        console.log("food in productpage:",food)
                         return (
 
                                 <Link to={`/foodproduct?restaurant=${food.restaurant_id}&fooditem=${food._id}`} className='link-div'>
                                     <div className='container float-end'>
                                         <div className='row d-flex my-3 w-75 float-end'>
                                             <div className='col-2'>
-                                                <img src={food.image} className='rounded cursor-pointer' height='100' width='100' alt='' />
-                                                {/* <img src={BASE_URL + food.image} className='rounded cursor-pointer' height='100' width='100' alt='' /> */}
+                                                <img src={BASE_URL + "static/Undhiyu1695643656763.jpg"} className='rounded cursor-pointer' height='100' width='100' alt='' />
                                             </div>
                                             <div className='col-10 d-flex flex-column justify-content-between'>
                                                 <div className='food-title cursor-pointer'>{food.name}</div>
