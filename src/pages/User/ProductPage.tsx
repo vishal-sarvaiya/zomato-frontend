@@ -335,7 +335,8 @@ const ProductPage = () => {
                                     <div className='container float-end'>
                                         <div className='row d-flex my-3 w-75 float-end'>
                                             <div className='col-2'>
-                                                <img src={BASE_URL + food.image} className='rounded cursor-pointer' height='100' width='100' alt='' />
+                                                <img src={food.image} className='rounded cursor-pointer' height='100' width='100' alt='' />
+                                                {/* <img src={BASE_URL + food.image} className='rounded cursor-pointer' height='100' width='100' alt='' /> */}
                                             </div>
                                             <div className='col-10 d-flex flex-column justify-content-between'>
                                                 <div className='food-title cursor-pointer'>{food.name}</div>
